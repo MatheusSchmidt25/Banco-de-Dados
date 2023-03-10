@@ -1,0 +1,33 @@
+1=O que são comandos DDL em banco de dados?
+E um conjunto de comandos dentro da SQL usada para a definição das estruturas de dados. Entre os principais comandos DDL estão CREATE (Criar), DROP (deletar) e ALTER (alterar).
+
+2=O que são comandos DML em banco de dados?
+E o grupo de comandos dentro da linguagem SQL utilizado para a recuperação, inclusão, remoção e modificação de informações em bancos de dados. Os principais comandos DML são Select, Insert, Update e Delete.
+
+3=A respeito das propriedades de um SGDB, o que e ACID?Pesquise e detalhe os conceitos:
+ACID é um conceito que se refere às quatro propriedades de transação de um sistema de banco de dados: Atomicidade, Consistência, Isolamento e Durabilidade.
+
+ATOMICIDADE= Seria a garantia de que a transação será feita totalmente ou não será feita. Nesse caso, a transação não é feita “pela metade”. Se por ventura uma operação da transação falhar, consequentemente, toda a transação falhará.
+
+Consistencia=A transação cria um novo estado válido dos dados ou em caso de falha retorna todos os dados ao seu estado antes que a transação foi iniciada.
+
+Isolamento= é um conjunto de técnicas que tentam evitar que transações paralelas interfiram umas nas outras, fazendo com que o resultado de várias transações em paralelo seja o mesmo resultado se as mesmas transações fossem executadas sequencialmente (uma após a outra)
+
+Durabilidade=Significa que os efeitos de uma transação são permanentes, podendo ser desfeitos somente como resultado de uma transação posterior e bem-sucedida.
+
+4=O que é o modelo de Peter Chen?Como e onde ele e utilizado?
+Peter Chen, em 1976, propôs o modelo Entidade-Relacionamento (ER) para projetos de banco de dados. Isso deu uma nova e importante percepção dos conceitos de modelos de dados.
+E composta de entidades (retângulos), relacionamentos (losangos), atributos (elipses) e linhas de conexão (linhas) que indicam a cardinalidade de uma entidade em um relacionamento.
+
+5=O que e entidade?
+é um objeto que existe e é distinguível dos outros objetos. Por exemplo, Paulo Silva com número de CPF 123.456.789-00 é uma entidade, visto que isso identifica unicamente uma pessoa particular do universo.
+
+6=O que é um atributo?
+ é uma função que mapeia um conjunto de entidades em um domínio. Portanto, toda entidade é descrita por um conjunto de pares (atributo, valor do atributo), sendo um par para cada atributo do conjunto de entidades.
+
+7=Explique o conceito de cardinalidade de relacionamentos?
+indica quantas ocorrências de uma Entidade participam no mínimo e no máximo do relacionamento. Cardinalidade Mínima - define se o relacionamento entre duas entidades é obrigatório ou não.
+
+8=Explique a necessidade de um processo de modelagem de banco de dados?
+é obter uma demonstração de como serão estruturados os dados dentro daquela plataforma para que o negócio fique em operação da forma necessária.
+
